@@ -1,8 +1,8 @@
 .banner {
   text-align: center;
-  background-color: transparent;
+  background-color: #FFFFFF;
 }
 
 .banner img {
-  width: 100%;
+  max-width: 100%;
 }
