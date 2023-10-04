@@ -4,7 +4,7 @@ import { CampoTexto } from '../CampoTexto'
 import { ListaSuspensa } from '../ListaSuspensa'
 import './Formulario.css'
 
-export const Formulario = () => {
+export const Formulario = props => {
 
   const funcoes = [
     'Controlador',
@@ -18,7 +18,15 @@ export const Formulario = () => {
   const [imagem, setImagem] = useState('')
   const [funcao, setFuncao] = useState('')
 
-  const aoSalvar = e => e.preventDefault()
+  const aoSalvar = e => {
+    e.preventDefault()
+    props.aoAgenteCadastrado({
+      nome,
+      habilidades,
+      imagem,
+      funcao
+    })
+  }
 
   return (
     <section className='formulario'>
@@ -46,7 +54,7 @@ export const Formulario = () => {
         />
         <ListaSuspensa
           obrigatorio={true}
-          label="Função"
+          label="Funcao"
           itens={funcoes}
           valor={funcao}
           aoAlterado={valor => setFuncao(valor)}
