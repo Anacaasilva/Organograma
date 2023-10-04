@@ -31,7 +31,7 @@ export const Formulario = props => {
   return (
     <section className='formulario'>
       <form onSubmit={aoSalvar}>
-        <h2>Preencha os dados para criar o card do agente.</h2>
+        <h2>Preencha os campos para criar o card do agente.</h2>
         <CampoTexto
           obrigatorio={true}
           label="Nome"

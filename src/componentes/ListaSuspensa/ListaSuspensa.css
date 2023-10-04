@@ -1,15 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .lista-suspensa label {
   display: block;
-  margin-bottom: 8px;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .lista-suspensa select {
-  background-color: #FFFFFF;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
   width: 100%;
   border: none;
-  font-size: 24px;
-  padding: 24px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
   box-sizing: border-box;
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
+
+/* .lista-suspensa select option {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 5px;
+} */

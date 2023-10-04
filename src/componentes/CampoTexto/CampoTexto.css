@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .campo-texto {
   margin: 24px 0;
 }
 
 .campo-texto label {
   display: block;
-  margin-bottom: 8px;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .campo-texto input {
-  background-color: #FFFFFF;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
   width: 100%;
   border: none;
-  font-size: 24px;
-  padding: 24px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
   box-sizing: border-box;
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
