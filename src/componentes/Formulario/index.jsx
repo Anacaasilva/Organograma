@@ -19,6 +19,10 @@ export const Formulario = props => {
       imagem,
       funcao
     })
+    setNome('')
+    setHabilidades('')
+    setImagem('')
+    setFuncao('')
   }
 
   return (
