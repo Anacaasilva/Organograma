@@ -6,13 +6,6 @@ import './Formulario.css'
 
 export const Formulario = props => {
 
-  const funcoes = [
-    'Controlador',
-    'Duelista',
-    'Iniciador',
-    'Sentinela'
-  ]
-
   const [nome, setNome] = useState('')
   const [habilidades, setHabilidades] = useState('')
   const [imagem, setImagem] = useState('')
@@ -55,13 +48,11 @@ export const Formulario = props => {
         <ListaSuspensa
           obrigatorio={true}
           label="Funcao"
-          itens={funcoes}
+          itens={props.funcoes}
           valor={funcao}
           aoAlterado={valor => setFuncao(valor)}
         />
-        <Botao>
-          Criar card
-        </Botao>
+        <Botao>Criar card</Botao>
       </form>
     </section>
   )
