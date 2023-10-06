@@ -1,9 +1,9 @@
 import './Agente.css'
 
-export const Agente = ({ nome, imagem, habilidades }) => {
+export const Agente = ({ nome, imagem, habilidades, corDeFundo }) => {
   return (
     <div className='agente'>
-      <div className='cabecalho'>
+      <div className='cabecalho' style={{ backgroundColor: corDeFundo }}>
         <img src={imagem} alt={nome} />
       </div>
       <div className='rodape'>

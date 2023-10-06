@@ -10,6 +10,7 @@ export const Funcao = props => {
       <div className='agentes'>
         {props.agentes.map(agente => <Agente
           key={agente.nome}
+          corDeFundo={props.corPrimaria}
           nome={agente.nome}
           habilidades={agente.habilidades}
           imagem={agente.imagem}
