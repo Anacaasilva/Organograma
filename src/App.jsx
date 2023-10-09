@@ -29,123 +29,119 @@ function App() {
     }
   ]
 
-  // const inicial = [
-  //   {
-  //     nome: 'JULIANA AMOASEI',
-  //     habilidades: 'Desenvolvedora de software e instrutora',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-  //     funcao: funcoes[0].nome
-  //   },
-  //   {
-  //     nome: 'DANIEL ARTINE',
-  //     habilidades: 'Engenheiro de Software na Stone Age',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-  //     funcao: funcoes[0].nome
-  //   },
-  //   {
-  //     nome: 'GUILHERME LIMA',
-  //     habilidades: 'Desenvolvedor Python e JavaScript na Alura',
-  //     imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-  //     funcao: funcoes[0].nome
-  //   },
-  //   {
-  //     nome: 'PAULO SILVEIRA',
-  //     habilidades: 'Hipster e CEO da Alura',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-  //     funcao: funcoes[0].nome
-  //   },
-  //   {
-  //     nome: 'JULIANA AMOASEI',
-  //     habilidades: 'Desenvolvedora de software e instrutora',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-  //     funcao: funcoes[1].nome
-  //   },
-  //   {
-  //     nome: 'DANIEL ARTINE',
-  //     habilidades: 'Engenheiro de Software na Stone Age',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-  //     funcao: funcoes[1].nome
-  //   },
-  //   {
-  //     nome: 'GUILHERME LIMA',
-  //     habilidades: 'Desenvolvedor Python e JavaScript na Alura',
-  //     imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-  //     funcao: funcoes[1].nome
-  //   },
-  //   {
-  //     nome: 'PAULO SILVEIRA',
-  //     habilidades: 'Hipster e CEO da Alura',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-  //     funcao: funcoes[1].nome
-  //   },
-  //   {
-  //     nome: 'JULIANA AMOASEI',
-  //     habilidades: 'Desenvolvedora de software e instrutora',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-  //     funcao: funcoes[2].nome
-  //   },
-  //   {
-  //     nome: 'DANIEL ARTINE',
-  //     habilidades: 'Engenheiro de Software na Stone Age',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-  //     funcao: funcoes[2].nome
-  //   },
-  //   {
-  //     nome: 'GUILHERME LIMA',
-  //     habilidades: 'Desenvolvedor Python e JavaScript na Alura',
-  //     imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-  //     funcao: funcoes[2].nome
-  //   },
-  //   {
-  //     nome: 'PAULO SILVEIRA',
-  //     habilidades: 'Hipster e CEO da Alura',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-  //     funcao: funcoes[2].nome
-  //   },
-  //   {
-  //     nome: 'JULIANA AMOASEI',
-  //     habilidades: 'Desenvolvedora de software e instrutora',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-  //     funcao: funcoes[3].nome
-  //   },
-  //   {
-  //     nome: 'DANIEL ARTINE',
-  //     habilidades: 'Engenheiro de Software na Stone Age',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-  //     funcao: funcoes[3].nome
-  //   },
-  //   {
-  //     nome: 'GUILHERME LIMA',
-  //     habilidades: 'Desenvolvedor Python e JavaScript na Alura',
-  //     imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-  //     funcao: funcoes[3].nome
-  //   },
-  //   {
-  //     nome: 'PAULO SILVEIRA',
-  //     habilidades: 'Hipster e CEO da Alura',
-  //     imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-  //     funcao: funcoes[3].nome
-  //   },
-  // ]
+  const inicial = [
+    {
+      nome: 'Skye',
+      habilidades: 'Passarinho que voa, Ceguei',
+      imagem: 'https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png',
+      funcao: funcoes[0].nome
+    },
+    {
+      nome: 'DANIEL ARTINE',
+      habilidades: 'Engenheiro de Software na Stone Age',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      funcao: funcoes[0].nome
+    },
+    {
+      nome: 'GUILHERME LIMA',
+      habilidades: 'Desenvolvedor Python e JavaScript na Alura',
+      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      funcao: funcoes[0].nome
+    },
+    {
+      nome: 'PAULO SILVEIRA',
+      habilidades: 'Hipster e CEO da Alura',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      funcao: funcoes[0].nome
+    },
+    {
+      nome: 'Skye',
+      habilidades: 'Passarinho que voa, Ceguei',
+      imagem: 'https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png',
+      funcao: funcoes[1].nome
+    },
+    {
+      nome: 'DANIEL ARTINE',
+      habilidades: 'Engenheiro de Software na Stone Age',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      funcao: funcoes[1].nome
+    },
+    {
+      nome: 'GUILHERME LIMA',
+      habilidades: 'Desenvolvedor Python e JavaScript na Alura',
+      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      funcao: funcoes[1].nome
+    },
+    {
+      nome: 'PAULO SILVEIRA',
+      habilidades: 'Hipster e CEO da Alura',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      funcao: funcoes[1].nome
+    },
+    {
+      nome: 'Skye',
+      habilidades: 'Passarinho que voa, Ceguei',
+      imagem: 'https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png',
+      funcao: funcoes[2].nome
+    },
+    {
+      nome: 'DANIEL ARTINE',
+      habilidades: 'Engenheiro de Software na Stone Age',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      funcao: funcoes[2].nome
+    },
+    {
+      nome: 'GUILHERME LIMA',
+      habilidades: 'Desenvolvedor Python e JavaScript na Alura',
+      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      funcao: funcoes[2].nome
+    },
+    {
+      nome: 'PAULO SILVEIRA',
+      habilidades: 'Hipster e CEO da Alura',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      funcao: funcoes[2].nome
+    },
+    {
+      nome: 'Skye',
+      habilidades: 'Passarinho que voa, Ceguei',
+      imagem: 'https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png',
+      funcao: funcoes[3].nome
+    },
+    {
+      nome: 'DANIEL ARTINE',
+      habilidades: 'Engenheiro de Software na Stone Age',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      funcao: funcoes[3].nome
+    },
+    {
+      nome: 'GUILHERME LIMA',
+      habilidades: 'Desenvolvedor Python e JavaScript na Alura',
+      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      funcao: funcoes[3].nome
+    },
+    {
+      nome: 'PAULO SILVEIRA',
+      habilidades: 'Hipster e CEO da Alura',
+      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      funcao: funcoes[3].nome
+    },
+  ]
 
-  const [agentes, setAgentes] = useState([])
-
-  const novoAgente = (agente) => setAgentes([...agentes, agente])
+  const [agentes, setAgentes] = useState(inicial)
 
   return (
     <div className="App">
       <Banner />
       <Formulario
         funcoes={funcoes.map(funcao => funcao.nome)}
-        aoAgenteCadastrado={agente => novoAgente(agente)}
+        aoCadastrar={agente => setAgentes([...agentes, agente])}
       />
       <section className='funcao'>
         <h1>Meus agentes</h1>
-        {funcoes.map(funcao => <Funcao
-          key={funcao.nome}
-          nome={funcao.nome}
-          corPrimaria={funcao.corPrimaria}
-          corSegundaria={funcao.corSegundaria}
+        {funcoes.map((funcao, indice) => <Funcao
+          key={indice}
+          funcao={funcao}
           agentes={agentes.filter(agente => agente.funcao === funcao.nome)}
         />)}
       </section>

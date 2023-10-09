@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap');
+
 .agente {
   width: 280px;
 }
@@ -23,15 +25,17 @@
 }
 
 .agente .rodape h4 {
-  color: #6278F7;
-  font-size: 18px;
+  color: #FF4655;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
   line-height: 22px;
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 8px;
 }
 
 .agente .rodape h5 {
-  font-size: 18px;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
   line-height: 22px;
   color: #212121;
   padding: 0 16px;
