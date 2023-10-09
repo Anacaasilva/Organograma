@@ -1,19 +1,21 @@
 import { Agente } from '../Agente'
 import './Funcao.css'
 
-export const Funcao = props => {
-  const css = { backgroundColor: props.corSegundaria }
-
+export const Funcao = ({ nome, corPrimaria, corSegundaria, agentes }) => {
   return (
-    props.agentes.length > 0 ? <section className='funcao' style={css} >
-      <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
+    agentes.length > 0 ? <section
+      className='funcao'
+      style={{
+        backgroundColor: corSegundaria
+      }}>
+      <h3 style={{ borderColor: corPrimaria }}>{nome}</h3>
       <div className='agentes'>
-        {props.agentes.map(agente => <Agente
-          key={agente.nome}
-          corDeFundo={props.corPrimaria}
-          nome={agente.nome}
-          habilidades={agente.habilidades}
-          imagem={agente.imagem}
+        {agentes.map(({ nome, habilidades, imagem }) => <Agente
+          key={nome}
+          corDeFundo={corPrimaria}
+          nome={nome}
+          habilidades={habilidades}
+          imagem={imagem}
         />)}
       </div>
     </section> : ''
