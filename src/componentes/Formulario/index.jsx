@@ -51,7 +51,7 @@ export const Formulario = ({ aoCadastrar, funcoes }) => {
         />
         <ListaSuspensa
           obrigatorio={true}
-          label="Funcao"
+          label="Função"
           items={funcoes}
           valor={funcao}
           aoAlterado={valor => setFuncao(valor)}
