@@ -6,28 +6,24 @@ import { Rodape } from './componentes/Rodape';
 
 function App() {
 
-  const funcoes = [
+  const [funcoes, setFuncoes] = useState([
     {
       nome: 'Controlador',
-      corPrimaria: '#A275A7', //fundo do card do agente
-      corSegundaria: '#E0BBE4' //background
+      cor: '#E0BBE4' //background
     },
     {
       nome: 'Duelista',
-      corPrimaria: '#77509E',
-      corSegundaria: '#957DAD'
+      cor: '#957DAD'
     },
     {
       nome: 'Iniciador',
-      corPrimaria: '#800080',
-      corSegundaria: '#A275A7'
+      cor: '#A275A7'
     },
     {
       nome: 'Sentinela',
-      corPrimaria: '#D291BC',
-      corSegundaria: '#8F5E7F'
+      cor: '#8F5E7F'
     }
-  ]
+  ])
 
   const inicial = [
     {
@@ -134,6 +130,15 @@ function App() {
     console.log("deletando");
   }
 
+  const alterarCor = (cor, nome) => {
+    setFuncoes(funcoes.map(funcao => {
+      if(funcao.nome === nome) {
+        funcao.cor = cor;
+      }
+      return funcao
+    }))
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -148,6 +153,7 @@ function App() {
         {funcoes.map((funcao, indice) =>
           <Funcao
             key={indice}
+            mudarCor={alterarCor}
             funcao={funcao}
             agentes={agentes.filter(agente => agente.funcao === funcao.nome)}
             aoDeletar={deletarAgente}

@@ -1,5 +1,24 @@
 .funcao {
   text-align: center;
+  position: relative;
+}
+
+.inputColor {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  border: 2px solid transparent;
+  background: transparent;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.inputColor:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.inputColor::-webkit-color-swatch {
+  border: 1px solid #FFFFFF;
 }
 
 .funcao h3 {

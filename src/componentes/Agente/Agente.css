@@ -7,9 +7,9 @@
 
 .deletar {
   position: absolute;
-  right: -10px;
-  top: -10px;
-  color: #FFFFFF;
+  right: 5px;
+  top: 4px;
+  color: #F0F0F0;
 }
 
 .agente .cabecalho {

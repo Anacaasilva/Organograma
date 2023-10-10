@@ -1,10 +1,10 @@
-import { RiCloseCircleFill } from 'react-icons/ri'
+import { MdClear } from 'react-icons/md'
 import './Agente.css'
 
 export const Agente = ({ agente, corDeFundo, aoDeletar }) => {
   return (
     <div className='agente'>
-      <RiCloseCircleFill size={25} className='deletar' onClick={aoDeletar} />
+      <MdClear size={25} className='deletar' onClick={aoDeletar} />
       <div
         className='cabecalho'
         style={{ backgroundColor: corDeFundo }}>
