@@ -8,7 +8,7 @@ export const Funcao = ({ funcao, agentes, aoDeletar, mudarCor }) => {
       className='funcao'
       style={{ backgroundColor: hexToRgba(funcao.cor, '0.6') }}>
       <input
-        onChange={({ target }) => mudarCor(target.value, funcao.nome)}
+        onChange={({ target }) => mudarCor(target.value, funcao.id)}
         value={funcao.cor}
         type='color'
         className='inputColor'
