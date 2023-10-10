@@ -138,7 +138,9 @@ function App() {
         aoCadastrar={agente => setAgentes([...agentes, agente])}
       />
       <section className='funcao'>
-        <h1>Meus agentes</h1>
+        <div>
+          <h1>Meus agentes</h1>
+        </div>
         {funcoes.map((funcao, indice) => <Funcao
           key={indice}
           funcao={funcao}

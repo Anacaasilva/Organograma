@@ -2,6 +2,13 @@ import './rodape.css'
 
 export const Rodape = () => {
   return (
-    <h1></h1>
+    <footer className='footer'>
+      <div>
+        <h1>VALORANT</h1>
+      </div>
+      <div>
+        <p>Desenvolvido por Ana Carolina</p>
+      </div>
+    </footer>
   )
 }
