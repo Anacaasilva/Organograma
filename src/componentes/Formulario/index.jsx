@@ -28,8 +28,8 @@ export const Formulario = ({ aoCadastrar, funcoes, cadastrarFuncao }) => {
   }
 
   return (
-    <section className='formulario'>
-      <form onSubmit={aoSalvar}>
+    <section className='formulario-container'>
+      <form className='formulario' onSubmit={aoSalvar}>
         <h2>Preencha os campos para criar o card do agente.</h2>
         <CampoTexto
           obrigatorio={true}
@@ -60,10 +60,12 @@ export const Formulario = ({ aoCadastrar, funcoes, cadastrarFuncao }) => {
         />
         <Botao texto='Criar card' />
       </form>
-      <form onSubmit={(evento) => {
-        evento.preventDefault()
-        cadastrarFuncao({nome: nomeFuncao, cor: corFuncao})
-      }}>
+      <form className='formulario'
+        onSubmit={(evento) => {
+          evento.preventDefault()
+          cadastrarFuncao({ nome: nomeFuncao, cor: corFuncao })
+        }}
+      >
         <h2>Preencha os dados para criar uma nova Funcao</h2>
         <CampoTexto
           obrigatorio
@@ -74,6 +76,7 @@ export const Formulario = ({ aoCadastrar, funcoes, cadastrarFuncao }) => {
         />
         <CampoTexto
           obrigatorio
+          type='color'
           label="Cor"
           placeholder="Digite a cor da Função"
           valor={corFuncao}

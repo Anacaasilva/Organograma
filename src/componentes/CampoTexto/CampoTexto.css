@@ -23,3 +23,8 @@
   font-family: 'Montserrat', sans-serif;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
+
+.campo-texto-color input {
+  height: 40px;
+  padding: 5px 24px;
+}
