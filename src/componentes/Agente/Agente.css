@@ -2,6 +2,14 @@
 
 .agente {
   width: 280px;
+  position: relative;
+}
+
+.deletar {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  color: #FFFFFF;
 }
 
 .agente .cabecalho {

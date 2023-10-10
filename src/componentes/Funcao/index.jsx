@@ -1,7 +1,7 @@
 import { Agente } from '../Agente'
 import './Funcao.css'
 
-export const Funcao = ({ funcao, agentes }) => {
+export const Funcao = ({ funcao, agentes, aoDeletar }) => {
   return (
     agentes.length > 0 ? <section
       className='funcao'
@@ -14,6 +14,7 @@ export const Funcao = ({ funcao, agentes }) => {
             key={indice}
             agente={agente}
             corDeFundo={funcao.corSegundaria}
+            aoDeletar={aoDeletar}
           />
         })}
       </div>

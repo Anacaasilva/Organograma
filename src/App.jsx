@@ -130,6 +130,10 @@ function App() {
 
   const [agentes, setAgentes] = useState(inicial)
 
+  const deletarAgente = () => {
+    console.log("deletando");
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -141,11 +145,14 @@ function App() {
         <div>
           <h1>Meus agentes</h1>
         </div>
-        {funcoes.map((funcao, indice) => <Funcao
-          key={indice}
-          funcao={funcao}
-          agentes={agentes.filter(agente => agente.funcao === funcao.nome)}
-        />)}
+        {funcoes.map((funcao, indice) =>
+          <Funcao
+            key={indice}
+            funcao={funcao}
+            agentes={agentes.filter(agente => agente.funcao === funcao.nome)}
+            aoDeletar={deletarAgente}
+          />
+        )}
       </section>
       <Rodape />
     </div >
