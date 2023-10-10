@@ -145,7 +145,7 @@ function App() {
     },
   ]
 
-  const [agentes, setAgentes] = useState(inicial)
+  const [agentes, setAgentes] = useState(inicial);
 
   const deletarAgente = (id) => {
     setAgentes(agentes.filter(agente => agente.id !== id));
@@ -156,14 +156,19 @@ function App() {
       if (funcao.id === id) {
         funcao.cor = cor;
       }
-      return funcao
+      return funcao;
     }))
+  }
+
+  const cadastrarFuncao = (novaFuncao) => {
+    setFuncoes([...funcoes, {...novaFuncao, id: uuidv4()}])
   }
 
   return (
     <div className="App">
       <Banner />
       <Formulario
+        cadastrarFuncao={cadastrarFuncao}
         funcoes={funcoes.map(funcao => funcao.nome)}
         aoCadastrar={agente => setAgentes([...agentes, agente])}
       />
