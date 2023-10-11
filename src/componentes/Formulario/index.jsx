@@ -1,30 +1,32 @@
-import { useState } from 'react'
-import { Botao } from '../Botao'
-import { CampoTexto } from '../CampoTexto'
-import { ListaSuspensa } from '../ListaSuspensa'
-import './Formulario.css'
+import './Formulario.css';
+
+import { useState } from 'react';
+
+import { Botao } from '../Botao';
+import { CampoTexto } from '../CampoTexto';
+import { ListaSuspensa } from '../ListaSuspensa';
 
 export const Formulario = ({ aoCadastrar, funcoes, cadastrarFuncao }) => {
 
-  const [nome, setNome] = useState('')
-  const [habilidades, setHabilidades] = useState('')
-  const [imagem, setImagem] = useState('')
-  const [funcao, setFuncao] = useState('')
-  const [nomeFuncao, setNomeFuncao] = useState('')
-  const [corFuncao, setCorFuncao] = useState('')
+  const [nome, setNome] = useState('');
+  const [habilidades, setHabilidades] = useState('');
+  const [imagem, setImagem] = useState('');
+  const [funcao, setFuncao] = useState('');
+  const [nomeFuncao, setNomeFuncao] = useState('');
+  const [corFuncao, setCorFuncao] = useState('');
 
   const aoSalvar = e => {
-    e.preventDefault()
+    e.preventDefault();
     aoCadastrar({
       nome,
       habilidades,
       imagem,
       funcao
-    })
-    setNome('')
-    setHabilidades('')
-    setImagem('')
-    setFuncao('')
+    });
+    setNome('');
+    setHabilidades('');
+    setImagem('');
+    setFuncao('');
   }
 
   return (
@@ -70,7 +72,7 @@ export const Formulario = ({ aoCadastrar, funcoes, cadastrarFuncao }) => {
         <CampoTexto
           obrigatorio
           label="Nome"
-          placeholder="Digite o nome da funçao"
+          placeholder="Digite o nome da função"
           valor={nomeFuncao}
           aoAlterado={valor => setNomeFuncao(valor)}
         />
@@ -85,5 +87,5 @@ export const Formulario = ({ aoCadastrar, funcoes, cadastrarFuncao }) => {
         <Botao texto='Criar função' />
       </form>
     </section>
-  )
-}
+  );
+};

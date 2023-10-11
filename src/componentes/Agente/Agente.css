@@ -6,10 +6,10 @@
 }
 
 .deletar {
-  position: absolute;
-  right: 5px;
   top: 4px;
+  right: 5px;
   color: #F0F0F0;
+  position: absolute;
 }
 
 .agente .cabecalho {
@@ -19,32 +19,32 @@
 
 .agente img {
   width: 100px;
+  bottom: -50px;
   border-radius: 50%;
   position: relative;
-  bottom: -50px;
 }
 
 .agente .rodape {
-  background: #FFFFFF;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-  border-radius: 0px 0px 10px 10px;
   padding-top: 90px;
   padding-bottom: 40px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
 }
 
 .agente .rodape h4 {
-  color: #FF4655;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 22px;
   font-weight: 800;
+  color: #FF4655;
+  line-height: 22px;
   margin-bottom: 8px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .agente .rodape h5 {
   font-size: 17px;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 22px;
-  color: #212121;
   padding: 0 16px;
+  color: #212121;
+  line-height: 22px;
+  font-family: 'Montserrat', sans-serif;
 }

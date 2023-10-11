@@ -16,8 +16,8 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   border-radius: 20px;      
-  border: 2px solid transparent;  
   background-color: #FF4655;
+  border: 2px solid transparent;  
 }
 
 .funcao div {
@@ -25,10 +25,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .funcao h1 {
-  text-align: center;
   font-size: 38px;
   color: #FF4655;
-  border-bottom: 4px solid #FF4655;
+  text-align: center;
   padding-bottom: 24px;
   display: inline-block;
+  border-bottom: 4px solid #FF4655;
 }

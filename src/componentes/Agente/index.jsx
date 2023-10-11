@@ -1,5 +1,6 @@
-import { MdClear } from 'react-icons/md'
-import './Agente.css'
+import './Agente.css';
+
+import { MdClear } from 'react-icons/md';
 
 export const Agente = ({ agente, corDeFundo, aoDeletar }) => {
   return (
@@ -23,5 +24,5 @@ export const Agente = ({ agente, corDeFundo, aoDeletar }) => {
         <h5>{agente.habilidades}</h5>
       </div>
     </div>
-  )
-}
+  );
+};

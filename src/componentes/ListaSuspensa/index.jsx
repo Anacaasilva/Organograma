@@ -1,4 +1,4 @@
-import './ListaSuspensa.css'
+import './ListaSuspensa.css';
 
 export const ListaSuspensa = ({ label, items, valor, aoAlterado, obrigatorio = false }) => {
   return (
@@ -7,10 +7,13 @@ export const ListaSuspensa = ({ label, items, valor, aoAlterado, obrigatorio = f
       <select
         required={obrigatorio}
         onChange={evento => aoAlterado(evento.target.value)}
-        value={valor}>
+        value={valor}
+      >
         <option value=""></option>
-        {items.map(item => <option key={item}>{item}</option>)}
+        {items.map(item =>
+          <option key={item}>{item}</option>
+        )}
       </select>
     </div>
-  )
-}
+  );
+};

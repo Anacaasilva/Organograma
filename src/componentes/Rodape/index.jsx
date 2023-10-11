@@ -1,4 +1,4 @@
-import './rodape.css'
+import './rodape.css';
 
 export const Rodape = () => {
   return (
@@ -10,5 +10,5 @@ export const Rodape = () => {
         <p>Desenvolvido por Ana Carolina</p>
       </div>
     </footer>
-  )
-}
+  );
+};

@@ -4,11 +4,11 @@
 }
 
 .inputColor {
-  position: absolute;
   top: 20px;
   right: 50px;
-  border: 2px solid transparent;
+  position: absolute;
   background: transparent;
+  border: 2px solid transparent;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -24,13 +24,14 @@
 .funcao h3 {
   font-size: 30px;
   padding-bottom: 8px;
+  letter-spacing: 4px;
   display: inline-block;
   border-bottom: 4px solid;
 }
 
 .funcao .agentes {
   display: flex;
-  justify-content: space-around;
-  margin-top: 15px;
   flex-wrap: wrap;
+  margin-top: 15px;
+  justify-content: space-around;
 }

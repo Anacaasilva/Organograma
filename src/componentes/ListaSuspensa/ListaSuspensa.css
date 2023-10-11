@@ -3,9 +3,9 @@
 .lista-suspensa label {
   display: block;
   font-size: 24px;
+  font-weight: 800;
   margin-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
 }
 
 .lista-suspensa select {

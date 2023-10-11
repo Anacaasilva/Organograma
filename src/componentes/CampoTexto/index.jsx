@@ -1,4 +1,4 @@
-import './CampoTexto.css'
+import './CampoTexto.css';
 
 export const CampoTexto = ({ type = 'text', label, placeholder, valor, aoAlterado, obrigatorio = false }) => {
   return (
@@ -12,5 +12,5 @@ export const CampoTexto = ({ type = 'text', label, placeholder, valor, aoAlterad
         placeholder={placeholder}
       />
     </div>
-  )
-}
+  );
+};
